@@ -1,7 +1,7 @@
 # LinuxShitCheet
 Just like Cheatsheet, but shit
 
-#Share screen by vnc, but without logs in terminal
+#Share screen by vnc, but without authing and logs in terminal
 ```bash
-x0vncserver & disown
+x0vncserver -SecurityTypes=none & disown
 ```
